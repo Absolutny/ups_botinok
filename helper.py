@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from datetime import datetime
 
 # Настройка бота
-bot = Bot(token="7460468833:AAGy2slrrsXxjrvB3XTezf7jfD_HZsVqsy8")
+bot = Bot(token="YOUR TOKEN")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
